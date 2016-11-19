@@ -7,9 +7,6 @@ $(call inherit-product, vendor/aicp/configs/common_tablet.mk)
 # Inherit telephony stuff
 $(call inherit-product, vendor/aicp/configs/telephony.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/aicp/configs/nfc_enhanced.mk)
-
 # Inherit AOSP scorpion device parts
 $(call inherit-product, device/sony/scorpion/aosp_sgp621.mk)
 
