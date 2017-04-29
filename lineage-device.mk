@@ -24,4 +24,4 @@ PRODUCT_COPY_FILES := \
 TARGET_OTA_ASSERT_DEVICE := SGP621,SGP641,scorpion
 
 # Common
-include device/sony/scorpion_windy/cm-device-common.mk
+include device/sony/scorpion_windy/lineage-device-common.mk

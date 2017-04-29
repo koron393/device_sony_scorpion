@@ -10,8 +10,8 @@ $(call inherit-product, vendor/aicp/configs/telephony.mk)
 # Inherit AOSP scorpion device parts
 $(call inherit-product, device/sony/scorpion/aosp_sgp621.mk)
 
-# Inherit CM scorpion device parts
-$(call inherit-product, device/sony/scorpion/cm-device.mk)
+# Inherit LOS scorpion device parts
+$(call inherit-product, device/sony/scorpion/lineage-device.mk)
 
 PRODUCT_DEVICE := scorpion
 PRODUCT_NAME := aicp_scorpion
